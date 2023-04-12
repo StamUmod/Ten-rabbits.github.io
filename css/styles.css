@@ -10846,11 +10846,18 @@ html {
   background-repeat: no-repeat;
   min-height: 15rem;
 }
-.div1 {
-
-  width:100px ;
-
-  height:100px;
-
-
+header.masthead {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image:
+          linear-gradient(to bottom,
+          rgba(0, 0, 0, 0.5),
+          rgba(255, 255, 255, 0.5)),
+          url("../assets/img/1.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
 }
