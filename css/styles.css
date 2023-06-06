@@ -10891,6 +10891,8 @@ header.masthead {
   z-index: 9999;
 }
 #status {
+  height: auto;
+  width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
