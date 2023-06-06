@@ -10887,15 +10887,12 @@ header.masthead {
   height: 100%;
   left: 0%;
   top: 0%;
-  background-color: #777777;
+  background-color: #ffffff;
   z-index: 9999;
 }
-#status {/*   這是中間loading的gif坐標css,我們盡量讓他畫面置中  */
-  position: fixed;
-  width: 218px;
-  height: 419px;
-  margin-left: -240px;
-  margin-top: -140px;
-  left: 50%;
+#status {
+  position: absolute;
   top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
