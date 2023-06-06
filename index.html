@@ -17,7 +17,7 @@
     <body class="d-flex flex-column h-100">
 
     <div id="preloader">
-        <div id="status"><img src="https://i.imgur.com/sLrkIVq.gif" title="source: imgur.com" height="1280" width="auto" /></div>
+        <div id="status"><img src="https://i.imgur.com/sLrkIVq.gif" title="source: imgur.com" /></div>
     </div>
 
         <main class="flex-shrink-0">
@@ -249,7 +249,7 @@
     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
     <script type="text/javascript">
         $(function() { // 確認整個頁面讀取完畢再將這三個div隱藏起來
-            $("#status").delay(500).fadeOut(1500); //delay --> 延遲幾秒才fadeOut
+            $("#status").delay(500).fadeOut(1000); //delay --> 延遲幾秒才fadeOut
             $("#preloader").delay(700).fadeOut(3500);
         })
     </script>
